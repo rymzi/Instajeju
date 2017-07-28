@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Edit Profile</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shorcut icon" href="images/favicon.ico">
 </head>
 <body>
   <nav class="navigation">
@@ -25,50 +26,57 @@
       </a>
     </div>
   </nav>
-  <head class="edit-profile__infos">
-    <div class="edit-profile__info">
-      <img src="images/avatar.jpg" />
-      <div class="profile__info">
-        <div class="profile__title">
-        <span class="profile_name">rymzi</span>
-      <ul class="edit-profile__details">
-        <li class="edit-profile__detail">
-          <span class="edit-profile__detail">Name</span>
-          <form action="name" method="get" class="profile__name">
-            <input type ="text"  placeholder="rymzi"></li>
-
-            <li class="edit-profile__detail"><span class="edit-profile__detail">Username</span>
-            <input type ="text">
-            </li>
-            <li class="edit-profile__detail"><span class="edit-profile__detail">Website</span>
-            <input type ="text">
-            </li>
-            <li class="edit-profile__detail"><span class="edit-profile__detail">Bio</span>
-            <textarea></textarea>
-            </li>
-            <li class="edit-profile__detail"><span class="edit-profile__detail">Email</span>
-            <input type ="text">
-            </li>
-            <li class="edit-profile__detail"><span class="edit-profile__detail">Phone Number</span>
-            <input type ="text">
-            </li>
-            <li class="edit-profile__detail"><span class="edit-profile__detail">Gender</span>
-            <select name="profile__sex">
-              <option value="value1">male</option>
-              <option value="value2">female</option>
-              <option value="value2">not specified</option>
-              </select>
-            </li>
-            <li class="edit-profile__detail"><span class="edit-profile__detail">Similar Account Suggestions</span>
-            nclude
-            <input type="checkbox" id="Account" name="Similar Account Suggestions">
-            <label for="Similar Account Suggestions">your account when recommending similar accounts people might want to follow.
-            <a href="#">[?]</a></label>
-            </li>
-            <button>submit</button>
-          </form>
-    </div>
-    </div>
+  <main id="edit-profile">
+      <div class="edit-profile__container">
+        <header class="edit-profile__header">
+          <img src="images/avatar.jpg" />
+          <h1 class="edit-profile__username">rymzi</h1>
+        </header>
+        <form class="edit-profile__form">
+          <div class="edit-profile__row">
+            <label class="edit-profile__label" for="name">Name</label>
+            <input id="name" type="text" value="rymzi">
+          </div>
+          <div class="edit-profile__row">
+            <label class="edit-profile__label" for="username">Username</label>
+            <input id="username" type="text">
+          </div>
+          <div class="edit-profile__row">
+            <label class="edit-profile__label" for="website">Website</label>
+            <input id="website" type="url">
+          </div>
+          <div class="edit-profile__row">
+            <label class="edit-profile__label" for="bio">Bio</label>
+            <textarea id="bio"></textarea>
+          </div>
+          <div class="edit-profile__row">
+            <label class="edit-profile__label" for="email">Email</label>
+            <input id="email" type="email">
+          </div>
+          <div class="edit-profile__row">
+            <label class="edit-profile__label" for="phone-number">Phone Number</label>
+            <input id="phone-number" type="text">
+          </div>
+          <div class="edit-profile__row">
+            <label class="edit-profile__label" for="gender">Gender</label>
+            <select  id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="cant-remember" selected>Can't remember</option>
+            </select>
+          </div>
+          <div class="edit-profile__row">
+            <span class="edit-profile__label">Similar Account Suggestions</span>
+            <input id="similar" type="checkbox">
+            <label for="similar">Include your account when recommending similar accounts people might want to follow.</label>
+          </div>
+          <div class="edit-profile__row">
+            <span></span>
+            <input type="submit">
+          </div>
+        </form>
+      </div>
+    </main>
   <footer>
   <nav class="footer__nav">
     <ul class="footer__list">
