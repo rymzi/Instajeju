@@ -12,7 +12,7 @@
     <a href="feed.html">
       <img src="images/logo.png" />
     </a>
-    <input type="text" placeholder="search">
+    <input type="text" placeholder="Search">
     <div class="navigation__links">
       <a href="explore.html" class="navigation__link">
         <i class="fa fa-compass"></i>
@@ -28,27 +28,49 @@
   <main id="profile">
     <header class="profile__header">
       <img src="images/avatar.jpg" />
-      <h1>rymzi</h1>
-      <button>Edit Profile</button>
-      <i class="fa fa-cog"></i>
-      <ul class="profle__numbers">
-        <li class="profile__number">
-        <span class=profile_posts>23 posts</span></li>
-        <li class="profile__number">
-        <span class=profile_posts>34 followers</span></li>
-        <li class="profile__number">
-        <span class=profile_posts>233 following</span></li>
-    </header>
-    <div class="profile__image-grid">
-      <span class=image-grid_name>Jeewon</span></li>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus,
-        ipsum vel facilisis molestie, justo lectus cursus sem, a consequat metus dui at odio.
-      </P>
-      <link class="image-grid__homepage"><a href="#">hompage</a></link>
+      <div class="profile__info">
+        <div class="profile__title">
+        <h1>rymzi</h1>
+        <a href="edit-profile.html">
+          <button>Edit Profile</button>
+        </a>
+      <i class="fa fa-cog fa-lg"></i>
     </div>
-  </main>
+      <ul class="profle__stats">
+        <li class="profile__stat">
+          <span class=profile_stat-number>23 </span>posts</li>
+        <li class="profile__stat">
+          <span class=profile_stat-number>34 </span>followers</li>
+        <li class="profile__stat">
+          <span class=profile_stat-number>233 </span>following</li>
+      </ul>
+    <p class="profile__bio">
+      <span class="profile__full-name">Jeewon</span>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus,
+      ipsum vel facilisis molestie, justo lectus cursus sem, a consequat metus dui at odio.
+      <a href="#" class="profile__link">homepage</a>
+    </p>
+  </div>
+</header>
+<div class="profile__photo-grid">
+  <div class="profile__photo-row">
+    <div class="porfile__photo">
+      <a href="image-detail.html">
+        <img src="images/feedPhoto.jpg"></a>
+        <div class="profile__photo-overlay">
+          <span class="profile__photo-stat">
+            <i class="fa fa-heart">504</i>
+          </span>
+          <span class="profile__photo-stat">
+            <i class="fa fa-comment">22</i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 
-  <footer>
+<footer>
     <!-- nav.footer__nav>ul.footer__list>li.footer__item*10>a.footer__link-->
   <nav class="footer__nav">
     <ul class="footer__list">

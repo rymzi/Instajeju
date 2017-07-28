@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Image detail</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navigation">
+    <a href="feed.html">
+      <img src="images/logo.png" />
+    </a>
+    <input type="text" placeholder="Search">
+    <div class="navigation__links">
+      <a href="explore.html" class="navigation__link">
+        <i class="fa fa-compass"></i>
+      </a>
+      <a href="#" class="navigation__link">
+        <i class="fa fa-heart-o"></i>
+      </a>
+      <a href="profile.html" class="navigation__link">
+        <i class="fa fa-user-o"></i>
+      </a>
+    </div>
+  </nav>
+  <main id="photo-detail">
+      <img src="images/feedPhoto.jpg" />
+      <header class="photo__header">
+        <div class="photo_userinfo">
+          <img src="images/avatar.jpg" />
+          <span class="userinfo__text">rymzi</span>
+          <span class="userinfo__text">nickname</span>
+        </div>
+      </header>
+      <ul class="photo_comments">
+        <li class="photo_comment">
+          <span class="comment__text">rymzi</span> love this!</span></li>
+      </ul>
+      <div class="photo__actions">
+        <span class="photo__acticon"> <i class="fa fa-heart-o"></i></span>
+        <span class="photo__acticon"> <i class="fa fa-comment-o"></i></span>
+      </div>
+      <div class="photo__info">
+      <span class="photo__likes">100 likes</span>
+      <span class="photo__date">JUNE 23,2016</span>
+      </div>
+      <div class="photo__add-comment-container">
+        <textarea placeholder="Add a comment..."></textarea>
+        <i class="fa fa-ellipsis-h"></i>
+    </div>
+  </main>
+</html>
