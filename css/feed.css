@@ -1,0 +1,38 @@
+#feed {
+  display: flex;
+  justify-content: center;
+}
+
+.photo img {
+  max-width: 100%;
+}
+.photo__userinfo {
+  width: 100%;
+  max-width: 100%;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, .0975);
+  border-radius: 3px;
+}
+.photo__userinfo img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.photo__header .photo__userinfo {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, .0975);
+}
+
+.photo__userinfo .userinfo__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.photo__userinfo .userinfo__fullname {
+  color: #999;
+}
