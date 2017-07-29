@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homework</title>
+  <style>
+  /*Complete this !!*/
+  html,body{
+    margin:0;
+    padding:0;
+    height: 100%;
+
+  }
+  body{
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feed{
+    width:50%;
+    height:300px;
+    border: 30px double green;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feed-child{
+    width:80%;
+    background-color: blue;
+    display: flex;
+    flex-flow:row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .feed-grandchild{
+    width:25%;
+    height: 95%;
+    background-color: white;
+    border: 5px solid pink;
+    border-style:inset;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .different{
+    border-style:outset;
+  }
+  </style>
+</head>
+<body>
+  <div class="feed">
+    <div class="feed-child">
+      <div class="feed-grandchild" >1</div>
+      <div class="feed-grandchild different">2</div>
+      <div class="feed-grandchild">3</div>
+    </div>
+  </div>
+</body>
+</html>
