@@ -1,0 +1,23 @@
+#footer {
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+.footer__nav .footer__list {
+  list-style: none;
+  padding-right: 200px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer__nav .footer__list .footer__item{
+  padding-right: 15px;
+}
+
+.footer__copyright {
+  padding-right: -400px;
+}
