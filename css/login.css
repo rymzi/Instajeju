@@ -10,6 +10,7 @@
 
 #login .login__column {
   width: 47%;
+
 }
 
 #login .login__column > img {
@@ -20,6 +21,7 @@
   background: white;
   border: 1px solid #e6e6e6;
   margin-bottom: 10px;
+  max-width: 100%
 }
 
 .login__column .login__box:nth-child(2) {
@@ -64,7 +66,6 @@
 .login__form input {
   box-sizing: border-box;
  /*--! padding값만큼사이즈가 커지는것을 방지하기위해, box-sizing 사용*/
-
   display: block;
   width: 100%;
   padding: 10px 7px 7px 7px;
@@ -91,6 +92,13 @@
   color: white;
   font-weight: 600;
   background-color: #3897f0;
+  padding: 7px;
+}
+input[type="submit"] {
+  border: 0;
+  color: white;
+  font-weight: 600;
+  background-color: red;
   padding: 7px;
 }
 
