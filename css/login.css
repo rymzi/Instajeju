@@ -15,10 +15,20 @@
   background: white;
   border: 1px solid #e6e6e6;
   margin-bottom: 10px;
-}
 
+}
+.login__column .login__box:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 70px;
+}
 .login__column .login__box:nth-child(2) {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
 
 .login__column .login__t-box {
@@ -28,10 +38,52 @@
   align-items: center;
 }
 
-.login__appstores {
+.login__appstores{
   margin-top: 20px;
 }
 
-.login__appstores .login__appstore {
+.login__appstores .login__appstore{
   height: 37px;
+}
+
+.login__box .login__blue-link {
+  color: #3897f0;
+}
+
+.login__column .login__box:first-child {
+  padding: 35px 40px 25px 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__box .login__form {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.login__form input{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 7.5px 5px 5px 5px;
+  font-size: 14px
+  border: 1px solid #efefef;
+  border-radius: 0.5px;
+
+}
+
+.login__form input:focus{
+  outline: none;
+  font-color: #262626;
+
+}
+.login__form input:first-child{
+  margin-bottom: 10px;
+
+}
+
+.login__form input:nth-child(2){
+  margin-bottom: 12px;
+
 }
