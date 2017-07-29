@@ -1,6 +1,6 @@
 #login {
   width: 75%;
-  margin: 50px auto;
+  margin: 60px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,7 +21,7 @@
   background: white;
   border: 1px solid #e6e6e6;
   margin-bottom: 10px;
-  max-width: 100%
+
 }
 
 .login__column .login__box:nth-child(2) {
@@ -93,6 +93,7 @@
   font-weight: 600;
   background-color: #3897f0;
   padding: 7px;
+  cursor: pointer;
 }
 input[type="submit"] {
   border: 0;
@@ -108,8 +109,30 @@ input[type="submit"] {
   text-transform: uppercase;
   font-weight: 600;
   color: #999;
+  position: relative;
+  width: 100%;
+  text-align:center;
 }
 
+.login__box .login__divider:before{
+  content:'';
+  width: 40%;
+  height: 1px;
+  background-color: #999;
+  position: absolute;
+  /* 기존의위치(father-child관계)에서벗어나 자유로운위치에 있을수있다. 기준은 body가되는거임.*/
+  top: 7px;
+  left: 0;
+}
+.login__box .login__divider:after{
+  content:'';
+  width: 40%;
+  height: 1px;
+  background-color: #999;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
 .login__box .login__fb-link {
   margin-bottom: 20px;
 }
@@ -121,3 +144,15 @@ input[type="submit"] {
 .login__small-link {
   color: #385185;
 }
+
+/* 위치 지정하기
+fixed. {
+width:30px;
+height:30px;
+background:red;
+position:fixed;
+top:30px;
+right: 0;
+width: 100%;
+}
+*/

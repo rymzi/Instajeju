@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import 'reset.css';
 @import 'global.css';
 @import 'login.css';
 @import 'footer.css';
+@import 'navigation.css';
+@import 'explore.css';

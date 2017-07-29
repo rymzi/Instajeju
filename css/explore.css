@@ -1,0 +1,54 @@
+#explore {
+  display: flex;
+  justify-content: center;
+}
+
+.explore__users {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.explore__user .explore__content img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.explore__users {
+  list-style: none;
+  box-sizing: border-box;
+  border: 0;
+  border: solid 1px #dbdbdb;
+  border-radius: 3px;
+}
+
+.explore__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.explore__username {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.explore__full-name {
+  color: #999;
+  font-size: 14px;
+}
+
+button {
+  background-color: #3897f0;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+}
