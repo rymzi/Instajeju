@@ -2,6 +2,7 @@
   /*{ }안에다 써야만 해당코드가 작동됨. 밖에다 작성할경우에는 웹과동일하게 작용될것임*/
   /*body {
     background-color: #f7f9f4;*/
+
     main {
       margin-top: 0;
     }
@@ -81,9 +82,7 @@
       order:1;
       margin-left: 0;
       display: flex;
-
       justify-content: flex-start;
-
     }
     .profile__bio {
       margin: 0 0 30px 0;

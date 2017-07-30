@@ -88,3 +88,8 @@
 .photo__add-comment-container i {
   cursor: pointer;
 }
+
+.heart-clicked {
+  color: red;
+  animation: .5s pump infinite linear;
+}
