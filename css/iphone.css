@@ -5,9 +5,8 @@
     main {
       margin-top: 0;
     }
-
     .navigation input {
-      display: none;      
+      display: none;
     }
 
     .photo .photo__add-comment-container {
