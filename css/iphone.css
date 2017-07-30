@@ -1,0 +1,14 @@
+@media screen and (min-width:320px) and (max-width:670px) {
+  /*{ }안에다 써야만 해당코드가 작동됨. 밖에다 작성할경우에는 웹과동일하게 작용될것임*/
+  /*body {
+    background-color: #f7f9f4;*/
+  main {
+    
+  }
+
+  }
+
+
+
+
+}
