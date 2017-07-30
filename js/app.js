@@ -4,5 +4,24 @@ var soldier = {
   age:22,
   weapon:weapons[2],
   ksKorean:false,
-  isDead"false
+  isDead:false
 };
+
+function multiply(iceCream, horsetato) {
+  return iceCream*horsetato;
+}
+
+function sum(remon, iceCream) {
+  return remon+iceCream
+}
+
+function Substrac(remon, iceCream) {
+  return remon-iceCream
+}
+
+function Divide(remon, iceCream) {
+  return remon/iceCream
+}
+function Expo(remon, iceCream) {
+  return remoniceCream
+}
