@@ -10,9 +10,8 @@
 
 #login .login__column {
   width: 47%;
-
 }
-
+/*로그인 페이지내의 아이폰 이미지*/
 #login .login__column > img {
   max-width: 100%;
 }
@@ -89,6 +88,8 @@
 
 .login__form input[type="submit"] {
   border: 0;
+  box-sizing: border-box;
+  display: block;
   color: white;
   font-weight: 600;
   background-color: #3897f0;
