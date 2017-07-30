@@ -2,13 +2,38 @@
   /*{ }안에다 써야만 해당코드가 작동됨. 밖에다 작성할경우에는 웹과동일하게 작용될것임*/
   /*body {
     background-color: #f7f9f4;*/
-  main {
-    
-  }
+    main {
+      margin-top: 0;
+    }
 
-  }
+    .navigation input {
+      display: none;
+    }
 
+    .photo .photo__add-comment-container {
+      display: none;
+    }
 
+    .u-default-box {
+      background-color: transparent;
+      border: none;
+    }
 
+    footer {
+      justify-content: center;
+    }
+
+    footer .footer__list {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .footer__list .footer__item {
+      margin-bottom: 10px;
+    }
+
+    .photo {
+      margin-bottom: 30px;
+    }
 
 }

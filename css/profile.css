@@ -25,6 +25,7 @@
 
 .avatar__container img {
   border-radius: 50%;
+  animation: 6s potato infinite ease-in-out;
 }
 
 .profile__info .profile__title,
@@ -98,6 +99,7 @@
   align-items: center;
   color: white;
   opacity: 0;
+  transition: opacity .5s ease-in-out;
 }
 
 .profile__photo-overlay .profile__photo-stat {
@@ -117,4 +119,21 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+/*하트 아이콘/폰트 애니매이션효과*/
+.profile__photo-stat i.fa-heart {
+  transform: scale(40);
+  animation: .5s pump infinite linear;
+}
+
+@keyframes pump {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: none;
+  }
 }
