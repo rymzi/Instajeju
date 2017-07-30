@@ -1,27 +1,26 @@
 var weapons = ["AK47", "Magnum", "Kim jong fat"];
 var soldier = {
   name: "Nicolas",
-  age:22,
-  weapon:weapons[2],
-  ksKorean:false,
-  isDead:false
+  age: 22,
+  weapon: weapons[2],
+  ksKorean: false,
+  isDead: false
+  sayHi: function() {
+    console.log("Hello, my name is" + this.name + "and I'm:" + this.age);
+  }
 };
 
-function multiply(iceCream, horsetato) {
-  return iceCream*horsetato;
+function sum(a,b) {
+  return a+b;
 }
 
-function sum(remon, iceCream) {
-  return remon+iceCream
+function Substrac(a,b) {
+  return a-b;
 }
 
-function Substrac(remon, iceCream) {
-  return remon-iceCream
+function Divide(a,b) {
+  return a/b;
 }
-
-function Divide(remon, iceCream) {
-  return remon/iceCream
-}
-function Expo(remon, iceCream) {
-  return remoniceCream
+function Expo(a,b) {
+  return a**b;
 }
