@@ -34,8 +34,27 @@
   height: 56px;
   border-radius: 50%;
   margin-right: 15px;
+  animation: .5s potato infinite linear;
 }
 
+@keyframes horse {
+  to {
+    transform: none;
+  }
+  from{
+    transform: rotateY(360deg);
+  }
+
+}
+@keyframes potato {
+  0% {
+    transform: none;
+  }
+  from{
+    transform: rotateX(360deg);
+  }
+
+}
 .explore__info .explore__username {
   display: block;
   font-weight: 600;
